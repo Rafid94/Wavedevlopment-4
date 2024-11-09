@@ -1,0 +1,32 @@
+body{
+    padding: 25px;
+}
+.tittle{
+    color: burlywood;
+}
+input[type="text"]{
+    border: 2px solid red;
+}
+input[type="password"]{
+    border: 2px solid yellow;
+}
+ul>li{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 + p{
+    color:red;
+}
+ul li::before{
+    content: "*--*";
+}
+p::first-letter{
+    font-size: 100px;
+    color: red;
+}
+li:nth-child(3){
+    background-color: rgb(34, 158, 117
+    );
+}
+a:hover{
+    color: red;
+}
